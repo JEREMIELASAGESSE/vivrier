@@ -1,0 +1,71 @@
+
+           :root {
+--noire-police:#333333;
+
+--Rougetomate1: #E53935;
+--Rougetomate2:  #D32F2F;
+
+--Vertfeuille1 :#388E3C;
+--Vertfeuille2 : #4CAF50;
+
+--Jaunesoleil: #FBC02D;
+--Jaunesoleil2: #FFEB3B;
+
+--Blanccasse1 :#FAFAFA;
+--Blanccasse2 : #F5F5F5;
+
+--Grisdoux: #9E9E9E;
+--Grisfonce: #616161;
+}
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: var(--Blanccasse1);
+                padding: 20px;
+            }
+
+            form {
+                background-color: var(--Blanccasse2);
+                padding: 30px;
+                max-width: 350px;
+                margin: auto;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 5px;
+                color: var(--Rougetomate1);
+                font-size: 2rem;
+            }
+
+            input[type="text"],
+            input[type="date"],
+            input[type="file"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 10px 0 0 10px;
+                /* Bord gauche arrondi */
+            }
+
+            input[type="submit"],button[type="submit"] {
+                width: 100%;
+                padding: 12px;
+                background-color: var(--Rougetomate1);
+                color: white;
+                border: none;
+                border-radius: 0 20px 20px 0;
+                /* Bord droit arrondi */
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            input[type="submit"]:hover {
+                background-color: var(--Rougetomate2);
+            }

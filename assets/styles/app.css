@@ -1,0 +1,150 @@
+/*LES COULEURS*/
+:root {
+--noire-police:#333333;
+
+--Rougetomate1: #E53935;
+--Rougetomate2:  #D32F2F;
+
+--Vertfeuille1 :#388E3C;
+--Vertfeuille2 : #4CAF50;
+
+--Jaunesoleil1: #FBC02D;
+--Jaunesoleil2: #FFEB3B;
+
+--Blanccasse1 :#FAFAFA;
+--Blanccasse2 : #F5F5F5;
+
+--Grisdoux: #9E9E9E;
+--Grisfonce: #616161;
+}
+/*le style des boutons*/
+button {
+    background-color: var(--Vertfeuille2);
+    color: var(--Blanccasse);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: var(--Vertfeuille1);
+}
+button:active {
+    background-color: var(--Grisfonce);
+}
+/*le style des liens*/
+a {
+    color: var(--Blanccasse1);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--Grisfonce);
+}
+
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* LE STYLE DU MENU */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--Blanccasse2);
+  font-size: 1.2rem;
+}
+
+nav ul li.active a {
+  font-weight: bold;
+  color: var(--);
+  border-bottom: 4px solid var(--Rougetomate1);
+}
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color:var(--Vertfeuille1);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.logo {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+}
+/*Style du pied de page*/
+footer.footer {
+    background-color: var(--Grisfonce);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer.footer p {
+    margin: 0;
+    color: var(--Blanccasse2);
+    font-size: 14px;
+    text-align: center;
+}
+/* Bouton hamburger */
+.menu button.menu-toggle {
+  display:none; /* caché par défaut (desktop) */
+  background-color: var(--Grisfonce);
+  color: var(--Blanccasse2);
+  border: 1px solid var(--Grisdoux);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 25px;
+}
+/*reponsivité*/
+/* Mobile: menu replié avec bouton */
+@media (max-width: 768px){
+  .menu button.menu-toggle{
+    display: block; /* afficher le bouton sur mobile/tablette */
+  }
+  .menu .Main-Nav{
+    position: absolute;
+    top:-20px;
+    right: -100%;
+    background-color: var(--Rougetomate2);
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 6px;
+   /*display: none;  caché par défaut */
+    align-items: start;
+    justify-content: start;
+  }
+  .menu .Main-Nav.open{
+    right: 20px;
+  }
+  nav ul li a {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+  footer.footer {
+	
+	padding: 10px;
+	
+}
+}
+

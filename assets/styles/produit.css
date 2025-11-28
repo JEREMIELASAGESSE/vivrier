@@ -1,0 +1,83 @@
+:root {
+--noire-police:#333333;
+
+--Rougetomate1: #E53935;
+--Rougetomate2:  #D32F2F;
+
+--Vertfeuille1 :#388E3C;
+--Vertfeuille2 : #4CAF50;
+
+--Jaunesoleil: #FBC02D;
+--Jaunesoleil2: #FFEB3B;
+
+--Blanccasse1 :#FAFAFA;
+--Blanccasse2 : #F5F5F5;
+
+--Grisdoux: #9E9E9E;
+--Grisfonce: #616161;
+}
+.propos-page {
+    margin-top: 5rem;
+    background-color: var(--Blanccasse2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 1000px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+}
+.equipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.equipe {
+    background-color: var(--Blanccasse2);
+    border: 1px solid var(--Rougetomate1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.equipe img {
+    width: 100px;
+    border-radius:10px;
+}
+/*style de la page produit*/
+.cart-produit {
+    background-color: var(--Blanccasse2);
+    border: 1px solid var(--Rougetomate1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+}
+.cart-produit img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-produit h2 {
+    color: var(--Jaunesoleil);
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.cart-produit p {
+    color: var(--noire-police);
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.produit-details{
+    width: 40%;
+}
