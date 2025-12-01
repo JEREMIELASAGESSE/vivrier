@@ -165,6 +165,7 @@ $produits = $pdo->query("SELECT * FROM produits")->fetchAll();
                     <h2><?= htmlspecialchars($produit['nom_produit']) ?></h2>
                     <p><?= htmlspecialchars($produit['description']) ?></p>
                     <h3><?= htmlspecialchars($produit['date']) ?></h3>
+                    <h4><a href="tel:+255O500429932" class="home-page2__link">Interessé</a></h4>
                     <h4><a href="tbmodifieproduits.php?id=<?= $produit['id'] ?>">Modifier</a></h4>
                     <h4><a href="?delete=<?= $produit['id'] ?>" onclick="return confirm('Supprimer ce produit ?')">Supprimer</a></h4>
                 </div>

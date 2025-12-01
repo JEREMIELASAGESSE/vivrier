@@ -15,9 +15,9 @@
         <h1>
             Bienvenue Chez
             <br>
-            <strong>DIGITAL TOMATY KPADJALE </strong>
+            <strong>DIGITAL VIVRIER KPADJALE </strong>
             <br>
-            <strong>(DTK)</strong>
+            <strong>(DVK)</strong>
         </h1>
 
     </div>
@@ -31,20 +31,20 @@
     <section class="home-page1">
         <h2>Notre Mission</h2>
         <p>
-            commercialiser des tomates de qualité de nos membres à des meilleurs prix
+            commercialiser des Produits de qualité de nos membres à des meilleurs prix
             pour améliorer le cadre de vie de la communauté.
         </p>
         <p>
-            TOMATY KPADJALE a été Créée en 2014 à la suite d’une assemblée générale constitutive tenue par 1 076 producteurs venant de 11 localités.
+            VIVRIER KPADJALE a été Créée en 2014 à la suite d’une assemblée générale constitutive tenue par 1 076 producteurs venant de 11 localités.
             Elle compte à ce jour 3500 producteurs dont 2500 membres repartis dans 30 localités avec 10685 Ha de cacaoyère. 1087 de ces membres sont également certifiés Rainforest Alliance (RA).
         </p>
         <p>
-            Pour le respect de ses membres la TOMATY KPADJALE dit non à toute forme de discrimination.
+            Pour le respect de ses membres la VIVRIER KPADJALE dit non à toute forme de discrimination.
         </p>
     </section>
     <section class="home-page2">
         <div class="home-page2__content">
-            <img src="assets/images/image/font1.avif" alt="Nos Valeurs" class="home-page2__image">
+            <img src="assets/images/image/produitV.jpg" alt="Nos Valeurs" class="home-page2__image">
             <br>
             <a href="produit.php" class="home-page2__link">Nos Produits</a>
         </div>
@@ -62,15 +62,15 @@
     <section class="home-page3">
         <h2>Nos Valeurs</h2>
         <p>
-            TOMATY KPADJALE est une coopérative qui se veut être un modèle de gouvernance, de transparence et de responsabilité sociale.
+            VIVRIER KPADJALE est une coopérative qui se veut être un modèle de gouvernance, de transparence et de responsabilité sociale.
             Elle s’engage à respecter les principes coopératifs et à promouvoir le développement durable dans toutes ses actions.
         </p>
         <p>
-            TOMATY KPADJALE est engagée dans la lutte contre le travail des enfants et la déforestation.
+            VIVRIER KPADJALE est engagée dans la lutte contre le travail des enfants et la déforestation.
             Elle œuvre pour l’amélioration des conditions de vie de ses membres et de la communauté.
         </p>
         <p>
-            TOMATY KPADJALE est une coopérative qui se veut être un modèle de gouvernance, de transparence et de responsabilité sociale.
+            VIVRIER KPADJALE est une coopérative qui se veut être un modèle de gouvernance, de transparence et de responsabilité sociale.
             Elle s’engage à respecter les principes coopératifs et à promouvoir le développement durable dans toutes ses actions.
         </p>
     </section>

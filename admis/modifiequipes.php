@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données
-$pdo = new PDO("mysql:host=localhost;dbname=tomate;charset=utf8", "root", "");
+$pdo = new PDO("mysql:host=localhost;dbname=vivrier;charset=utf8", "root", "");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // Vérifie que l'ID est présent

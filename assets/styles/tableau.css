@@ -30,7 +30,7 @@
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
             text-transform: uppercase;
-            background-image:url('../images/image/tableau.jpg'); /* Chemin de l'image */
+            background-image:url('../images/image/tableauV.jpg'); /* Chemin de l'image */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -52,7 +52,7 @@
             width: 80%;
             margin: auto;
             padding: 20px;
-            background-color: var(--Rougetomate1);
+            background-color: var(--Jaunesoleil);
             color: var(--Blanccasse2);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
@@ -91,7 +91,7 @@
             border-radius: 10px;
         }
         .fonctionnalite {
-            background-color: var(--Rougetomate1);
+            background-color: var(--Jaunesoleil);
             color: var(--Grisdoux);
             border-radius: 10px;
             padding: 20px;
@@ -118,12 +118,13 @@
             color: var(--Grisdoux);
             text-decoration: none;
             font-weight: bold;
-            font-size:1.1rem;
+            font-size:1.3rem;
         }
         .fonctionnalite a:hover {
-            color: var(--Jaunesoleil);
+            color: var(--Rougetomate1);
             text-decoration: underline;
         }
+        
 /*Gestion produit*/
 @media (max-width: 768px){
     h1 {

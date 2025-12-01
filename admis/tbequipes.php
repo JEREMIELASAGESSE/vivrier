@@ -1,7 +1,7 @@
 <?php
 require("../config/config.php");
 try {
-    $pdo = new PDO("mysql:host=localhost;dbname=tomate;charset=utf8", "root", "");
+    $pdo = new PDO("mysql:host=localhost;dbname=vivrier;charset=utf8", "root", "");
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Requête pour récupérer les utilisateurs

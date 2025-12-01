@@ -2,7 +2,7 @@
 //conection to database
 // Paramètres de connexion
 $host = 'localhost';       // Adresse du serveur MySQL
-$dbname = 'tomate'; // Nom de la base de données
+$dbname = 'vivrier'; // Nom de la base de données
 $username = 'root';  // Nom d'utilisateur MySQL
 $password = ''; // Mot de passe MySQL
 

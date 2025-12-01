@@ -65,7 +65,7 @@ button:active {
     line-height: 1.5;
 }
 .home-page__background_index {
-  background-image:url('../images/image/font1.jpg'); /* Chemin de l'image */
+  background-image:url('../images/image/font1V.jpg'); /* Chemin de l'image */
   background-repeat: no-repeat;
    background-size: cover;
  background-position: center;
@@ -81,7 +81,7 @@ button:active {
   padding-top: 4.5rem;
 } 
 .home-page__background_apropos {
-  background-image:url('../images/image/apropos.jpg'); /* Chemin de l'image */
+  background-image:url('../images/image/tableau.jpg'); /* Chemin de l'image */
   background-repeat: no-repeat;
    background-size: cover;
  background-position: center;
@@ -91,7 +91,7 @@ button:active {
   text-align: center;
 }
 .home-page__background_contact {
-  background-image:url('../images/image/contact.jpg'); /* Chemin de l'image */
+  background-image:url('../images/image/font5V.jpg'); /* Chemin de l'image */
    background-size: cover;
  background-position: center;
   position: relative;
@@ -100,7 +100,7 @@ button:active {
   text-align: center;
 }
 .home-page__background_produit {
-  background-image:url('../images/image/produit.jpg'); /* Chemin de l'image */
+  background-image:url('../images/image/font2V.jpg'); /* Chemin de l'image */
   background-repeat: no-repeat;
    background-size: cover;
  background-position: center;
@@ -110,7 +110,7 @@ button:active {
   text-align: center;
 }
 .home-page__background_activite {
-  background-image:url('../images/image/actualite.jpg'); /* Chemin de l'image */
+  background-image:url('../images/image/font3V.jpg'); /* Chemin de l'image */
   background-repeat: no-repeat;
    background-size: cover;
  background-position: center;
@@ -158,8 +158,8 @@ button:active {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: var(--Vertfeuille1);
-    color: var(--Blanccasse2);
+    background-color: var(--Jaunesoleil);
+    color: var(--Grisfonce);
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -408,6 +408,9 @@ form button {
   width: 130px;
   border-radius: 10px;
   cursor: pointer;
+}
+form button:hover {
+  background-color: var(--Rougetomate1);
 }
 .localise {
   display: flex;
